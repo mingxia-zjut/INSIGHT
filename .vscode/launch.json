@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/tata/Insight_combined/main.py",
+            "python": "/usr/local/anaconda3/envs/torch_cu113/bin/python",
+            "console": "integratedTerminal",
+            "args": [
+                "configs/test/indoor.yaml"
+            ],
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/tata/Insight_combined/main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "configs/train/indoor.yaml"
+            ],
+        },
+        {
+            "name": "test",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/tata/Insight_combined/scripts/evaluate_predator.py",
+            "python": "/usr/local/anaconda3/envs/torch_cu113/bin/python",
+            "console": "integratedTerminal",
+            "args": [
+                "--source_path",
+                "snapshot/indoor/Insight",
+                "--n_points",
+                "30",
+                "--benchmark",
+                "3DMatch",
+                "--exp_dir",
+                "snapshot/indoor/est_traj",
+                "--sampling",
+                "prob"
+            ],
+        },
+        {
+            "name": "benchmark",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/tata/Insight_combined/benchmark.py",
+            "python": "/usr/local/anaconda3/envs/torch_cu113/bin/python",
+            "console": "integratedTerminal",
+        },
+    ]
+}

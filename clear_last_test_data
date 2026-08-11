@@ -1,0 +1,9 @@
+rm data_ThreeDMatch/dataset_test/*
+rm data_ThreeDMatch/temp/dataset_test/*
+rm node_configs/test_info.pkl
+rm snapshot/indoor/Insight/*
+rm -rf snapshot/indoor/est_traj/*
+rm configs/benchmarks_nodes/nodes/nodes_600/gt.log
+rm configs/benchmarks_nodes/nodes/nodes_600/gt.info
+rm data_ThreeDMatch/dataset_test/loc/*
+rm -r data_ThreeDMatch/dataset_test

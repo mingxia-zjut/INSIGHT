@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0 python main.py configs/test/indoor.yaml
+python scripts/evaluate_predator.py --source_path snapshot/indoor/Insight --n_points 30 --benchmark 3DMatch --exp_dir snapshot/indoor/est_traj --sampling prob
