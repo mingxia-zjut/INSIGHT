@@ -4,7 +4,7 @@
  Ming Xia, Min Huang, Qiuqi Pan, Yunhan Wang, Xiaoyan Wang, and Kaikai Chi
 
 
- <strong><a>Zhejiang University of Technology</a>, <a>University of Wisconsin-Madison</a> </strong>
+ <strong><a>Zhejiang University of Technology</a> </strong>
 </div>
 
 ## Introduction
