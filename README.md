@@ -9,7 +9,7 @@
 
 ## Introduction
 
-This is the repository for our paper "Visualizing the Smart Environment in AR: An Approach Based on Visual Geometry Matching". This repository provides the instructions for setting up the environment, training the model, and testing the model to reproduce the results reported in the paper.
+This is the repository for our paper "Visualizing the Smart Environment in AR: An Approach Based on Visual Geometry Matching". This repository provides the instructions for setting up the environment, training the model, and testing the model.
 
 ## Dependencies
 
